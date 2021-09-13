@@ -23,7 +23,7 @@
     height: 60%;
     width: 100%;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 /*Navigation bar: logo and image  */
@@ -109,7 +109,7 @@ height: 87px;
     
 }
 #services .box{
-    border: 3px solid brown;
+    border: 3px solid rgba(255, 123, 0, 0.979);
     padding:30px;
     margin: 20px 23px;
     background-color: rgb(228, 226, 226);
@@ -138,10 +138,10 @@ height: 87px;
     background: url('/pics/bg/phone-612061_1920.jpg') no-repeat center center/cover;
 }
 #contact-box{
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: 'Ramaraja', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ramaraja', serif;
 }
 #contact-box input,
 #contact-box textarea{
@@ -158,26 +158,27 @@ font-family: 'Ramaraja', serif;
 
 /* Clients section */
 #client-section{
-position: relative;
+    position: relative;
 
 }
 #client-section::before{
-content:"";
-position: absolute;
-background-image: url('/pics/bg/bg1.jpg') ;
-height: 100%;
-width:100%;
-z-index: -1;
-opacity: 0.8;
+    content:"";
+    position: absolute;
+    background-image: url('/pics/bg/bg1.jpg') ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
 }
 #clients{
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 #clients img{
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     padding-bottom: 40px;
 }
 .client-item{
